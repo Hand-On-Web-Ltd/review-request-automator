@@ -1,0 +1,23 @@
+{
+  "name": "@hand-on-web/review-request-automator",
+  "version": "1.0.0",
+  "description": "Automatically ask customers for Google reviews after service completion",
+  "main": "server.js",
+  "homepage": "https://www.handonweb.com",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": ["google-reviews", "automation", "customer-feedback", "local-business"],
+  "author": "Hand On Web Ltd <outreach@handonweb.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Hand-On-Web-Ltd/review-request-automator.git"
+  },
+  "dependencies": {
+    "dotenv": "^16.3.0",
+    "express": "^4.18.0",
+    "nodemailer": "^6.9.0"
+  }
+}
